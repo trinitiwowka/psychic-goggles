@@ -62,7 +62,8 @@ a {
   font-size: 3.125rem; }
 
 .header-description {
-  font-size: 1.0625rem; }
+  font-size: 1.0625rem;
+    padding-left:15%;}
 
 .header-comission {
   font-size: 1.875rem;
