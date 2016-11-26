@@ -1,0 +1,230 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 14px !important; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem !important; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-type: none; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/* ---------- header begin----------*/
+.header {
+  min-height: 650px;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 5rem;
+  color: #fff !important; }
+
+.header-title {
+  font-size: 3.125rem; }
+
+.header-description {
+  font-size: 1.0625rem; }
+
+.header-comission {
+  font-size: 1.875rem;
+  margin-top: 25px; }
+
+/* ---------- form begin ----------*/
+.form-wrap {
+  width: 350px;
+  background-color: #f1f1f1;
+  padding: 25px;
+  border: 1px solid #cdcdd3;
+  position: absolute;
+  right: 5%;
+  top: 20px;
+  z-index: 10; }
+  .form-wrap label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold; }
+
+.form-title {
+  margin-top: 0;
+  text-align: center; }
+
+.form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #cdcdd3;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  padding: 6px 10px;
+  margin-bottom: 5px; }
+
+.submit, .form-popup .popup-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 7px;
+  background-color: #4cc8de;
+  color: #fff; }
+
+.form-popup {
+  width: 320px;
+  padding: 25px;
+  background-color: #f1f1f1;
+  border: 1px solid #cdcdd3;
+  position: fixed;
+  margin-left: -160px;
+  top: 35%;
+  left: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 100px 2000px;
+          box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 100px 2000px;
+  z-index: 99999;
+  display: none; }
+  .form-popup .popup-submit {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase; }
+
+/* ---------- content begin----------*/
+.content-item {
+  clear: both;
+  margin-bottom: 1.875rem; }
+
+.item-img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat; }
+
+.item-text-title {
+  font-size: 1.5rem; }
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%; }
+
+.menu {
+  text-align: justify; }
+  .menu::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0; }
+
+.menu__link_icon {
+  position: absolute;
+  left: 13px;
+  top: 0;
+  bottom: 0;
+  width: 30px; }
+
+.menu__link_icon_pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%; }
+
+/* ---------- footer ----------*/
+.footer {
+  height: 115px;
+  margin-top: -115px;
+  position: relative; }
+
+.empty {
+  height: 115px; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+  .form-wrap {
+    position: static;
+    margin: 20px auto; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /**/
+  .form-wrap {
+    width: 320px; }
+  .header {
+    padding-top: 0; }
+  .item-img {
+    float: none;
+    margin: auto; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
