@@ -1,8 +1,8 @@
 $(document).ready((function() {
 
-    // $("#scroll").click(function() {
-    //     $("body").animate({scrollTop: $("#form-wrap").offset().top});
-    // });
+    $("#scroll").click(function() {
+        $("body").animate({scrollTop: $("#form").offset().top});
+    });
 
     $(".popup-submit").on("click" , function () {
         $(".form-popup").hide();
