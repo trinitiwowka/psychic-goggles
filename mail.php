@@ -6,6 +6,7 @@
     $skill = $_POST['skill'];
     $phone = $_POST['phone'];
     $admin_email="mkoltunm@yandex.ru";
+    //$admin_email="trinitiwowka@gmail.com";
     $message .= "<tr>" .
         "<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Имя</b></td>" .
         "<td style='padding: 10px; border: #e9e9e9 1px solid;'>$name</td>" .
