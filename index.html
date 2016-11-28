@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 
-
 </head>
 
 <body>
@@ -98,7 +97,7 @@
 	<div class="form-wrap">
 
 		<h2 class="form-title">Подключение к UBER</h2>
-		<form id="form">
+		<form id="form" method="post">
 
 			<label for="surname">Фамилия</label>
 			<input type="text" id="surname" class="form-input" placeholder="Иванов">
@@ -116,7 +115,7 @@
 			<input type="text" id="skill" class="form-input" placeholder="3 года">
 
 			<label for="phone">Телефон для связи</label>
-			<input type="text" id="phone" class="form-input" placeholder="+7 000-000-0000">
+			<input type="text" id="phone" class="form-input" placeholder="+7 000-000-0000" required>
 
 
 			<button type="submit" class="submit">Отправить</button>
@@ -131,8 +130,6 @@
 	</div>
 
 
-	<div class="hidden"></div>
-
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -143,8 +140,12 @@
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="js/common.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-	<script src="libs/mask/jquery.mask.min.js"></script>
-
+	<script src="libs/mask/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function($){
+			$("#phone").mask("+7 (999) 999-9999");
+		});
+	</script>
 
 </body>
 </html>
